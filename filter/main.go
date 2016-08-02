@@ -50,7 +50,7 @@ func main() {
 				break
 			}
 		}
-		if contains {
+		if !contains {
 			fmt.Printf("%s\n", referer)
 		}
 	}
